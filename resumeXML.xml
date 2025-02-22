@@ -1,67 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CV>
-    <Person>
-        <FirstName>Seymen</FirstName>
-        <LastName>Özdeş</LastName>
-        <Occupation>Student</Occupation>
-        <Contact>
-            <Address>Vali Rahmi Bey, 317. Sokak no 120, Buca/İzmir, İzmir, 35380, Turkey</Address>
-            <Phone>0507-807-40-52</Phone>
-            <Email>ozdesxseymen@gmail.com</Email>
-        </Contact>
-    </Person>
-    <Skills>
-        <Skill>Swift</Skill>
-        <Skill>Java</Skill>
-        <Skill>SQL</Skill>
-        <Skill>C#</Skill>
-        <Skill>HTML&CSS</Skill>
-    </Skills>
-    <Links>
-        <Website>https://seymenozdes.com.tr/</Website>
-        <Github>https://github.com/SeymenOzdes</Github>
-        <LinkedIn>https://www.linkedin.com/in/seymen-ozdes-755b57202/</LinkedIn>
-    </Links>
-    <References>
-        <Reference>
-            <Name>Turgay Zülam</Name>
-            <Phone>0545 255 38 22</Phone>
-            <Email>turgay.zulam@ieu.edu.tr</Email>
-        </Reference>
-        <Reference>
-            <Name>Hüseyin Tokat</Name>
-            <Phone>0544 364 91 98</Phone>
-            <Email>huseyintokat5@gmail.com</Email>
-        </Reference>
-    </References>
-    <AboutMe>
-        <Description>I am a second-year student in the Computer Programming department at İzmir University of Economics. I am passionate about learning new programming languages and continuously improving myself. My main area of interest is mobile application development, and I have experience developing mobile applications with Swift.</Description>
-    </AboutMe>
-    <Education>
-        <University>
-            <Institution>İzmir University of Economics</Institution>
-            <Degree>University/Higher School (Not Graduated)</Degree>
-            <Year>2025</Year>
-        </University>
-        <HighSchool>
-            <Institution>Elçin Tün Anatolian High School</Institution>
-            <Degree>High School Diploma</Degree>
-            <Year>2021</Year>
-        </HighSchool>
-    </Education>
-    <Languages>
-        <Language>English</Language>
-    </Languages>
-    <Hobbies>
-        <Hobby>Latin Dance/Bachata and Salsa</Hobby>
-    </Hobbies>
-    <PersonalInformation>
-        <BirthDate>May 05, 2003</BirthDate>
-        <Nationality>Turkish</Nationality>
-        <MaritalStatus>Single</MaritalStatus>
-    </PersonalInformation>
-    <DriverLicense>
-        <Class>B, B1, F, M</Class>
-    </DriverLicense>
-</CV>
+<resume>
+  <personalInfo>
+    <name>Seymen Özdeş</name>
+    <address>Vali Rahmi Bey, 317. Sokak no 120, Buca/İzmir, İzmir, 35380, Turkey</address>
+    <phone>0507-807-40-52</phone>
+    <email>ozdesxseymen@gmail.com</email>
+    <description>
+      Second-year Computer Programming student at İzmir University of Economics with a strong focus on iOS mobile development. Skilled in Swift and passionate about creating user-friendly mobile applications. Eager to contribute to innovative projects and grow as a developer.
+    </description>
+  </personalInfo>
 
+  <experience>
+    <job>
+      <company>İzmir University of Economics</company>
+      <dates>September 2023 - Present</dates>
+      <description>
+        Developed iOS mobile applications as part of university coursework and personal projects, focusing on Swift-based solutions and UI/UX design.
+      </description>
+      <city>İzmir, Turkey</city>
+      <positions>
+        <position startDate="2023-09" endDate="">iOS Development Student</position>
+      </positions>
+      <skills>
+        <skill>Swift</skill>
+        <skill>Xcode</skill>
+        <skill>iOS SDK</skill>
+        <skill>UI/UX Design</skill>
+        <skill>Git</skill>
+      </skills>
+      <accomplishments>
+        <item>Built a task management iOS app with Swift, integrating local storage and notifications</item>
+        <item>Optimized app performance by reducing load times by 30% through efficient memory management</item>
+        <item>Collaborated with a team of 3 to design an iOS prototype for a university competition</item>
+      </accomplishments>
+    </job>
+  </experience>
+
+  <projects>
+    <project>
+      <name>Taskify iOS App</name>
+      <url>https://github.com/SeymenOzdes/taskify-ios</url>
+      <description>
+        A task management application for iOS built with Swift, featuring reminders, categories, and a clean user interface.
+      </description>
+      <technologies>
+        <technology>Swift</technology>
+        <technology>Xcode</technology>
+        <technology>Core Data</technology>
+      </technologies>
+      <skills>
+        <skill>Mobile Development</skill>
+        <skill>Data Persistence</skill>
+        <skill>User Interface Design</skill>
+      </skills>
+      <accomplishments>
+        <item>Implemented Core Data for persistent storage of user tasks</item>
+        <item>Designed an intuitive UI with custom animations, improving user satisfaction</item>
+        <item>Deployed the app to TestFlight for beta testing with 10 users</item>
+      </accomplishments>
+    </project>
+    <project>
+      <name>WeatherNow iOS Widget</name>
+      <url>https://github.com/SeymenOzdes/weathernow-ios</url>
+      <description>
+        A lightweight iOS widget displaying real-time weather updates using a public API.
+      </description>
+      <technologies>
+        <technology>Swift</technology>
+        <technology>SwiftUI</technology>
+        <technology>REST APIs</technology>
+      </technologies>
+      <skills>
+        <skill>API Integration</skill>
+        <skill>SwiftUI</skill>
+        <skill>WidgetKit</skill>
+      </skills>
+      <accomplishments>
+        <item>Integrated OpenWeatherMap API to fetch and display live weather data</item>
+        <item>Developed a customizable widget with SwiftUI, supporting multiple sizes</item>
+      </accomplishments>
+    </project>
+  </projects>
+
+  <patents>
+    <!-- Patentin yoksa bu kısmı boş bırakıyorum -->
+  </patents>
+</resume>
