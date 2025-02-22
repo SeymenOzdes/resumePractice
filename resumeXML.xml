@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CV>
+    <Person>
+        <FirstName>Seymen</FirstName>
+        <LastName>Özdeş</LastName>
+        <Occupation>Student</Occupation>
+        <Contact>
+            <Address>Vali Rahmi Bey, 317. Sokak no 120, Buca/İzmir, İzmir, 35380, Turkey</Address>
+            <Phone>0507-807-40-52</Phone>
+            <Email>ozdesxseymen@gmail.com</Email>
+        </Contact>
+    </Person>
+    <Skills>
+        <Skill>Swift</Skill>
+        <Skill>Java</Skill>
+        <Skill>SQL</Skill>
+        <Skill>C#</Skill>
+        <Skill>HTML&CSS</Skill>
+    </Skills>
+    <Links>
+        <Website>https://seymenozdes.com.tr/</Website>
+        <Github>https://github.com/SeymenOzdes</Github>
+        <LinkedIn>https://www.linkedin.com/in/seymen-ozdes-755b57202/</LinkedIn>
+    </Links>
+    <References>
+        <Reference>
+            <Name>Turgay Zülam</Name>
+            <Phone>0545 255 38 22</Phone>
+            <Email>turgay.zulam@ieu.edu.tr</Email>
+        </Reference>
+        <Reference>
+            <Name>Hüseyin Tokat</Name>
+            <Phone>0544 364 91 98</Phone>
+            <Email>huseyintokat5@gmail.com</Email>
+        </Reference>
+    </References>
+    <AboutMe>
+        <Description>I am a second-year student in the Computer Programming department at İzmir University of Economics. I am passionate about learning new programming languages and continuously improving myself. My main area of interest is mobile application development, and I have experience developing mobile applications with Swift.</Description>
+    </AboutMe>
+    <Education>
+        <University>
+            <Institution>İzmir University of Economics</Institution>
+            <Degree>University/Higher School (Not Graduated)</Degree>
+            <Year>2025</Year>
+        </University>
+        <HighSchool>
+            <Institution>Elçin Tün Anatolian High School</Institution>
+            <Degree>High School Diploma</Degree>
+            <Year>2021</Year>
+        </HighSchool>
+    </Education>
+    <Languages>
+        <Language>English</Language>
+    </Languages>
+    <Hobbies>
+        <Hobby>Latin Dance/Bachata and Salsa</Hobby>
+    </Hobbies>
+    <PersonalInformation>
+        <BirthDate>May 05, 2003</BirthDate>
+        <Nationality>Turkish</Nationality>
+        <MaritalStatus>Single</MaritalStatus>
+    </PersonalInformation>
+    <DriverLicense>
+        <Class>B, B1, F, M</Class>
+    </DriverLicense>
+</CV>
+
